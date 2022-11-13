@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon compte - La Boutique Hurlea{% endblock %}
+
+{% block content %}
+    <h1>Mon compte</h1>
+    Bienvenue {{ app.user.firstname }} dans votre compt.
+    <br>C'est ici que vous allez pouvoirgérer toutes vos informations personelles.
+    <hr>
+    - <a href="{{ path('account_password') }}">modifier mon mot de passe</a><br>
+    - <a href="{{ path('account_address') }}">modifier mes adresses</a><br>
+    - Mec commandes
+    <hr>
+{% endblock %}
