@@ -19,8 +19,8 @@
 - changer cette ligne:
     - <code>DATABASE_URL="mysql://app:!ChangeMe!@127.0.0.1:3306/app?serverVersion=8&charset=utf8mb4"</code>
 
-- <code>symfony console doctrine:database:create</code>
-- <code>symfony console make:migration\
+- <code>symfony console doctrine:database:create
+- symfony console make:migration\
 - symfony console doctrine:migration:migrate</code>
 
 ### Lancement du serveur de développement
