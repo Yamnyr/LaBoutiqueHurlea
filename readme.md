@@ -1,7 +1,5 @@
 # **projet symfony "Apprendre Symfony 5 par la création d'un site e-commerce"**
 
-## **WAROQUET Quentin**
-
 #### https://www.udemy.com/course/apprendre-symfony-par-la-creation-dun-site-ecommerce/
 
 ## (projet réalsé a 75 %)
